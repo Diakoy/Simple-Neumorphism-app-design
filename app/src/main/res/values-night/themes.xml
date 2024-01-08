@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NeumorphismTraining" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/new_background</item>
+        <item name="colorPrimaryVariant">@color/new_background</item>
+        <item name="colorOnPrimary">@color/text_white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_light</item>
+        <item name="colorSecondaryVariant">@color/blue_light</item>
+        <item name="colorOnSecondary">@color/text_gray</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>
+        <item name="fontFamily">@font/gilroy</item>
+    </style>
+
+    <style name="Theme.NeumorphismTraining" parent="Base.Theme.NeumorphismTraining" />
+    <style name="Neu_Card">
+        <item name="neumorph_cornerFamily">rounded</item>
+        <item name="neumorph_cornerSize">10dp</item>
+    </style>
+    <style name="Neu_Image">
+        <item name="neumorph_cornerFamily">rounded</item>
+        <item name="neumorph_cornerSize">30dp</item>
+    </style>
+    <style name="Neu_Button">
+        <item name="neumorph_cornerFamily">rounded</item>
+        <item name="neumorph_cornerSize">2dp</item>
+    </style>
+</resources>
